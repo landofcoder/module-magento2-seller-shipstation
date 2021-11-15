@@ -1,0 +1,32 @@
+{
+    "name": "landofcoder/module-seller-shipstation",
+    "description":  "ShipStation is a web-based shipping solution that is integrated with the Magento API for retrieving order information and updating shipping details. The addon will integrate ShipStation for Lof_MarketPlace extension",
+    "require": {
+      "auctane/api": "2.*"
+    },
+    "keywords": [
+      "shipstation",
+      "magento",
+      "fulfillment",
+      "shipstation magento 2",
+      "magento 2 shipstation for marketplace",
+      "magento 2 marketplace",
+      "magento 2 multi vendor"
+    ],
+    "homepage": "https://landofcoder.com",
+    "support": {
+      "email": "landofcoder@gmail.com"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Lofmp\\Shipstation\\": ""
+        }
+    }
+}
